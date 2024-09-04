@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff5e1;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-align: center; 
+}
+
+/* Container for centered content */
+.container {
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Centered headings and paragraphs */
+h1 {
+    color: #ff4500;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #e6b800; /* Yellowish tone */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Navigation and Buttons */
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #ff6347;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4500;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e63900;
+}
+
+/* Lists */
+ul {
+    background-color: #ffe6cc;
+    border: 2px solid #ff9933;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+}
+
+ul ul {
+    margin-left: 20px;
+    list-style-type: circle;
+}
+
+/* Table */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    max-width: 100%;
+    overflow-x: auto;
+    display: block;
+    text-align: left; /* Keeps table text aligned to the left */
+    border: 2px solid #ff9933;
+}
+
+th, td {
+    border: 1px solid #ff9933;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td:hover {
+    background-color: #ffff99; 
+}
+
+tr td {
+    background-color: #ffe6cc; 
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #ff9933;
+    color: white;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    clear: both; /* Ensure it doesn't overlap content */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+    h2 {
+        font-size: 1.4rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .btn {
+        padding: 8px 15px;
+        font-size: 1rem;
+    }
+    table {
+        width: 100%;
+    }
+}
