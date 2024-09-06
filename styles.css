@@ -1,0 +1,217 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff5e1;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-align: center;
+}
+
+/* Container for centered content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Hero Image */
+.hero-image {
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Centered headings and paragraphs */
+header h1 {
+    font-size: 2.5rem;
+    color: #ff4500; /* Matching the existing color scheme */
+    margin-bottom: 20px;
+    font-family: 'Futura', sans-serif;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Futura', sans-serif;
+}
+
+h2 {
+    color: #e6b800; /* Yellowish tone */
+    margin-bottom: 20px;
+    font-family: 'Futura', sans-serif;
+}
+
+/* Navigation and Buttons */
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #ff6347;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Styling for the select menu */
+.select-menu {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 300px;
+}
+
+select {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    background-color: #ff9933;
+    color: white;
+    border: 2px solid #ff4500;
+    border-radius: 5px;
+    appearance: none; /* Hides default arrow for a cleaner look */
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+select:hover {
+    background-color: #e63900;
+}
+
+select:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* ID-based selector for movie info */
+#movie-info {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+    background-color: #ffe6cc;
+    border: 2px solid #ff9933;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Hierarchical relationship styling */
+#modern-interpretations ul li:hover {
+    background-color: #ffff99;
+    cursor: pointer;
+}
+
+/* Styling for select element */
+select {
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffe6cc;
+    border: 2px solid #ff9933;
+}
+
+/* Table */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    max-width: 100%;
+    overflow-x: auto;
+    display: block;
+    text-align: left; /* Keeps table text aligned to the left */
+    border: 2px solid #ff9933;
+}
+
+th, td {
+    border: 1px solid #ff9933;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td:hover {
+    background-color: #ffff99;
+}
+
+tr td {
+    background-color: #ffe6cc;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #ff9933;
+    color: white;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    clear: both; /* Ensure it doesn't overlap content */
+}
+
+/* Movie Posters */
+.movie-list-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ff9933;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between; /* Space between text and poster */
+    text-align: left;
+}
+
+.movie-list-item .movie-details {
+    flex: 1;
+}
+
+.movie-list-item strong {
+    display: block;
+    margin-bottom: 10px; /* Space between title and poster */
+}
+
+.movie-poster {
+    width: 150px;
+    height: auto;
+    border: 2px solid #ff9933;
+    border-radius: 8px;
+    margin-left: 20px; /* Space between text and poster */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+    h2 {
+        font-size: 1.4rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .btn {
+        padding: 8px 15px;
+        font-size: 1rem;
+    }
+    table {
+        width: 100%;
+    }
+}
