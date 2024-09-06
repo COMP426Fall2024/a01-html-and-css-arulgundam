@@ -22,7 +22,8 @@ body {
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* Section Styling */
@@ -34,14 +35,14 @@ section {
 }
 
 /* Centered headings and paragraphs */
-header h1 {
+h1 {
     font-size: 2.5rem;
     color: #ff4500; /* Matching the existing color scheme */
     margin-bottom: 20px;
     font-family: 'Futura', sans-serif;
 }
 
-header p {
+p {
     font-size: 1.2rem;
     color: #333;
     margin-bottom: 20px;
@@ -61,7 +62,7 @@ nav {
 }
 
 nav a {
-    color: #ff6347;
+    color: #ff9933;
     margin: 0 10px;
     text-decoration: none;
     font-weight: bold;
@@ -78,9 +79,9 @@ select {
     width: 100%;
     padding: 12px 20px;
     font-size: 1.2rem;
-    background-color: #ff9933;
-    color: white;
-    border: 2px solid #ff4500;
+    background-color: #ffe6cc;
+    color: gray;
+    border: 2px solid #ff9933;
     border-radius: 5px;
     appearance: none; /* Hides default arrow for a cleaner look */
     text-align: center;
@@ -90,7 +91,7 @@ select {
 }
 
 select:hover {
-    background-color: #e63900;
+    background-color: #f78310;
 }
 
 select:focus {
@@ -100,7 +101,6 @@ select:focus {
 
 /* ID-based selector for movie info */
 #movie-info {
-    margin-top: 20px;
     font-size: 1.2em;
     color: #333;
     background-color: #ffe6cc;
@@ -113,15 +113,6 @@ select:focus {
 #modern-interpretations ul li:hover {
     background-color: #ffff99;
     cursor: pointer;
-}
-
-/* Styling for select element */
-select {
-    padding: 10px;
-    border-radius: 5px;
-    font-family: 'Roboto', sans-serif;
-    background-color: #ffe6cc;
-    border: 2px solid #ff9933;
 }
 
 /* Table */
