@@ -8,13 +8,6 @@ body {
     text-align: center;
 }
 
-/* Container for centered content */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
 /* Hero Image */
 .hero-image {
     width: 100%;
@@ -26,18 +19,10 @@ body {
     margin-bottom: 10px;
 }
 
-/* Section Styling */
-section {
-    margin-bottom: 40px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
 /* Centered headings and paragraphs */
 h1 {
     font-size: 2.5rem;
-    color: #ff4500; /* Matching the existing color scheme */
+    color: #ff4500; 
     margin-bottom: 20px;
     font-family: 'Futura', sans-serif;
 }
@@ -50,7 +35,7 @@ p {
 }
 
 h2 {
-    color: #e6b800; /* Yellowish tone */
+    color: #e6b800; 
     margin-bottom: 20px;
     font-family: 'Futura', sans-serif;
 }
@@ -83,7 +68,7 @@ select {
     color: gray;
     border: 2px solid #ff9933;
     border-radius: 5px;
-    appearance: none; /* Hides default arrow for a cleaner look */
+    appearance: none; /* Hides default arrow */
     text-align: center;
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
@@ -99,22 +84,6 @@ select:focus {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
-/* ID-based selector for movie info */
-#movie-info {
-    font-size: 1.2em;
-    color: #333;
-    background-color: #ffe6cc;
-    border: 2px solid #ff9933;
-    padding: 15px;
-    border-radius: 8px;
-}
-
-/* Hierarchical relationship styling */
-#modern-interpretations ul li:hover {
-    background-color: #ffff99;
-    cursor: pointer;
-}
-
 /* Table */
 table {
     width: 80%;
@@ -123,7 +92,7 @@ table {
     max-width: 100%;
     overflow-x: auto;
     display: block;
-    text-align: left; /* Keeps table text aligned to the left */
+    text-align: left; 
     border: 2px solid #ff9933;
 }
 
@@ -157,6 +126,18 @@ footer {
 }
 
 /* Movie Posters */
+section {
+    margin-bottom: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#modern-interpretations ul li:hover {
+    background-color: #ffff99;
+    cursor: pointer;
+}
+
 .movie-list-item {
     margin-bottom: 20px;
     border-bottom: 1px solid #ff9933;
